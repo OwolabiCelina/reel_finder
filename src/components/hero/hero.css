@@ -1,0 +1,14 @@
+.hero-bg{
+    background-image:  var(--bluePurple-gradient); 
+    margin: none;
+    min-height: 50vh;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.hero-text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    color:white;
+}
+
