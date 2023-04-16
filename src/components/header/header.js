@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="logo">WORD BRIDGE</div>
                 <div className="nav-links">
                     <ul>
-                        <li><Link to={"/detect-language"}> Detect language</Link></li>
+                        {/* <li><Link to={"/detect-language"}> Detect language</Link></li> */}
                         <li><Link to={"/play-game"}> Guess game</Link></li>
                         <li><Link to={"/detect-language"}> Login</Link></li>
                         <li><Link to={"/detect-language"}>Create Account</Link></li>

@@ -1,14 +1,58 @@
 .hero-bg{
     background-image:  var(--bluePurple-gradient); 
     margin: none;
-    min-height: 50vh;
+    min-height: 45vh;
     padding: 2rem;
     margin-top: 2rem;
+    /* text-align: center; */
 }
 .hero-text{
-    text-align: center;
     font-weight: 700;
+    text-align: center;
     font-size: 4rem;
     color:white;
+}
+.hero-text-desc{
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin: 10px 0px 0px 0px;
+}
+.translate-button{
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    display: inline-block;
+    padding-inline: 4rem;
+    background-color: white;
+}
+.translate-button:hover{
+      box-shadow: 2px 2px 3px 0;
+      cursor: pointer;  
+}
+.detect-form{
+    width: 100%;
+    text-align: center;
+    margin-top:50px;
+}
+.detect-form input{
+    padding: 1rem;
+    width: 60%;
+    outline:none;
+    background-color: white;
+    color:black;
+    border: none;
+}
+.detect-form button{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.detect-form button:hover{
+    background-color: rgb(26, 26, 176);
+    color:white;
+    transition: 0.33s ease;
+    
 }
 
