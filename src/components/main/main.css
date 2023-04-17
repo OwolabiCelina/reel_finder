@@ -1,0 +1,38 @@
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.text-icon{
+    font-size: 5rem;
+    color: yellow;
+}
+
+.icons{
+    border: 4px solid white;
+    padding: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icons p{
+    display: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.icons:hover {
+    padding: 2.7rem;
+    background-image: var(--lightBlue-gradient);
+    border: none;
+
+    transition: 0.55s ease;    
+}
+.icons:hover p{
+    display: block;
+
+}
+.icons:hover  .text-icon{
+    background-color: white;
+    display: none;
+    
+}

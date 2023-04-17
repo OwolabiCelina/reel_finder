@@ -2,6 +2,12 @@
 
 :root{
   --bluePurple-gradient:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  --lightBlue-gradient:linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+body{
+  background-color: black;
+  color: white;
 }
 
 *{
