@@ -1,9 +1,35 @@
 .footer-bg{
-    display: flex;
-    justify-content: center;    
-    align-content: center;
+    text-align: center;
     height: 20rem;
-    padding: 2rem;
-    border: 1px solid white;
+    padding-top: 7rem;
     margin-top: 5rem;
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+
 }
+
+.copy-year{
+    display: block;
+}
+.coffee-cup{
+    color: yellow;
+    margin-left: 0.5rem;
+}
+.smiley-face{
+    color: yellow;
+    margin-right: 1rem;
+}
+.footer-bg a{
+    color: white;
+    text-decoration: none;
+}
+.love{
+    color: red;
+    margin-inline: 5px;
+}
+.footer-bg a:hover{
+    color: gray;
+}
+
