@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <Container>
             <div className="header">
-                <div className="logo">WORD BRIDGE</div>
+                <div className="logo">REEL FINDER</div>
                 <div className="nav-links">
                     <ul>
                         {/* <li><Link to={"/detect-language"}> Detect language</Link></li> */}

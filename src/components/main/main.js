@@ -3,30 +3,39 @@ import Container from "../container/container";
 import { BsFileRichtext } from "react-icons/bs";
 import { BsFillMicFill } from "react-icons/bs";
 import { BsRobot } from "react-icons/bs";
+import { useContext } from "react";
+import { MovieContext } from "../../pages/homepage";
+import MovieCard from "../MovieCard/MovieCard";
 
 
 
 const Main = () => {
 
+  const {movieData, setMovieData} = useContext(MovieContext);
+  console.log("consoling moviedata in main");
+  console.log(movieData);
+
+  const handleClick = (e,id) => {
+    console.log("clicking");
+    e.preventDefault();
+    alert(id)
+
+  }
+
+
     return (
-      <Container>
-        <div className="icon-container">
-          <div className="icons">
-            <BsFileRichtext className="text-icon" />
-            <p>Translate</p>
-          </div>
+      <div className="main-container">
+             {movieData.length !== 0 ? movieData.map(movies => (
+          <MovieCard handleClick= {(e) => handleClick(e,movies.imdbID)}
+          Poster={movies.Poster} 
+          Title={movies.Title} 
+          Type={movies.Type}
+          Year={movies.Year} 
+          Id={movies.imdbID} 
+          />
+          )) : "Can't Find any Movie For the above Search"}
 
-          <div className="icons">
-            <BsFillMicFill className="text-icon" />
-            <p>Transcribe</p>
-          </div>
-
-          <div className="icons">
-            <BsRobot className="text-icon" />
-            <p>paraphrase</p>
-          </div>
-        </div>
-      </Container>
+      </div>
     );
 }
 
