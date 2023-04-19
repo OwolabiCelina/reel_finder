@@ -8,8 +8,6 @@ const MovieCard = ({Poster, Title, Type, Year, Id, handleClick}) => {
                     <img src={Poster} alt="poster-pics" style={{width: "20rem"}} />
                     <p>{Title}</p>
                     <span>{Year}</span>
-                    {/* <span>{Id}</span> */}
-
             </div>
         )
 

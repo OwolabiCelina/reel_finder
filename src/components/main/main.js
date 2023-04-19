@@ -1,24 +1,23 @@
 import "./main.css";
-import Container from "../container/container";
-import { BsFileRichtext } from "react-icons/bs";
-import { BsFillMicFill } from "react-icons/bs";
-import { BsRobot } from "react-icons/bs";
-import { useContext } from "react";
-import { MovieContext } from "../../pages/homepage";
+// import { useContext, useState } from "react";
+import { MovieContext } from "../../pages/homepage/homepage";
 import MovieCard from "../MovieCard/MovieCard";
+import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
 
 
 
 const Main = () => {
 
   const {movieData, setMovieData} = useContext(MovieContext);
-  console.log("consoling moviedata in main");
+  const navigate = useNavigate()
+
   console.log(movieData);
 
   const handleClick = (e,id) => {
     console.log("clicking");
     e.preventDefault();
-    alert(id)
+    navigate("/home/movie-details", { state: { movieId: id } });
 
   }
 

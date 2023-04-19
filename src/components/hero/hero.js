@@ -1,8 +1,7 @@
 import "./hero.css"
 import axios from "axios";
-import { useContext, useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { MovieContext } from "../../pages/homepage";
+import { useContext,  useState } from "react";
+import { MovieContext } from "../../pages/homepage/homepage";
 
 
 

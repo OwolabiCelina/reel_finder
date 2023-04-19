@@ -1,6 +1,6 @@
 .main-container{
     display: flex;
-    justify-content: space-around;
+    /* justify-content:flex-start; */
     max-width: 80%;
     flex-wrap: wrap;
     margin-inline: 10%;
