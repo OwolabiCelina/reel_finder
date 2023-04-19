@@ -38,7 +38,7 @@ const Main = () => {
             />
           ))
         ) : (
-          <Lottie style={{paddingInline: "30%"}} animationData={movie} />
+          <Lottie style={{marginLeft: "30%"}} animationData={movie} />
         )}
       </div>
     );
