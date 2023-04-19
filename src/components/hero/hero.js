@@ -33,12 +33,21 @@ const Hero = () => {
 
   const detectLanguage = async (e) => {
     e.preventDefault()
+    if (movieName === "") {
+      alert("Fields Cannot be Empty")
+      return
+    }
 
      try {
       let dataDetails = await axios(options);
       if (dataDetails.status === 200){
-         console.log(dataDetails.data.Search);
-         setMovieData(dataDetails.data.Search);       
+         console.log(`consoling search ${dataDetails.data.Search}`);
+         if (dataDetails.data.Search !== undefined){
+            setMovieData(dataDetails.data.Search);       
+         }else{
+          alert("No Movies for " + movieName + " Found")
+         }
+         
       }
      }catch(err){
       console.log(err.message)
