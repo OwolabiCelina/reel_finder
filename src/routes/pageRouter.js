@@ -8,7 +8,7 @@ const PageRouter = () => {
     return (
         <div>
             <Routes>
-                <Route path="/home" element={<HomePage />} />
+                <Route path="/" element={<HomePage />} />
                 <Route path="/home/movie-details" element={<MovieDetailsPage />} />
             </Routes>
 

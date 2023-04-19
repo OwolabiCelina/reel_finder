@@ -40,7 +40,6 @@ const Main = () => {
         ) : (
           <Lottie style={{marginLeft: "30%"}} animationData={movie} />
         )}
-        "vje"
       </div>
     );
 }
