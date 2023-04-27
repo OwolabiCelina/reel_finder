@@ -32,7 +32,7 @@ const Hero = () => {
 
 
   const detectLanguage = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     if (movieName === "") {
       alert("Fields Cannot be Empty")
       return

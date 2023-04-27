@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import Header from "../header/header";
 import Footer from "../footer/footer";
 import { useEffect, useState } from "react";
@@ -9,6 +9,7 @@ const MovieDetails = () => {
 
     
     const location = useLocation();
+    const navigate = useNavigate();
 
     const [movieInfo, setMovieInfo] = useState("");
 
@@ -78,6 +79,7 @@ const MovieDetails = () => {
         ) : (
           "Can't load movie Details"
         )}
+        <button id="btn" onClick={() => navigate(-1)}>Back</button>
         <Footer />
       </div>
     );

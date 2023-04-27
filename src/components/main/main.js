@@ -12,13 +12,14 @@ import movie from "../../json/movie.json";
 const Main = () => {
 
   const {movieData, setMovieData} = useContext(MovieContext);
-  const navigate = useNavigate()
+  const navigate = useNavigate("/hero");
 
   console.log(movieData);
 
   const handleClick = (e,id) => {
     console.log("clicking");
     e.preventDefault();
+    setMovieData();
     navigate("/home/movie-details", { state: { movieId: id } });
 
   }
@@ -43,5 +44,6 @@ const Main = () => {
       </div>
     );
 }
+
 
 export default Main;

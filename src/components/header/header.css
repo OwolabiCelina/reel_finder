@@ -5,9 +5,18 @@
     align-items: center;
     padding: 1rem 0 1rem 0;
 }
-.header .logo{
+
+.logo{
     font-weight: 700;
     font-size: 1.5rem;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.link {
+    text-decoration: none;
+    color: white;
 }
 
 .header ul{
@@ -22,5 +31,5 @@ li a{
 }
 
 a:hover{
-    color: gray;
+    color: blue;
 }
