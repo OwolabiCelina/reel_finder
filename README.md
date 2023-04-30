@@ -1,5 +1,7 @@
+REEL_FINDER
 
-Movie Search Web Application
+Reel_Finder Movie Search Web Application
+
 This web application is designed to provide users with a comprehensive platform to search for movies, learn about them, and test their knowledge through a fun guessing game.
 
 Features
