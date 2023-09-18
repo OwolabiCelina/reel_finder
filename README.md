@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+REEL_FINDER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Reel_Finder Movie Search Web Application
 
-## Available Scripts
+This web application is designed to provide users with a comprehensive platform to search for movies, learn about them, and test their knowledge through a fun guessing game.
 
-In the project directory, you can run:
+Features
+Movie Search
+The primary functionality of the application is to enable users to search for movies using their names. Once a movie is selected, the application displays additional information such as the production year, plot, directors, and actors who participated in the movie.
 
-### `npm start`
+Additional Information
+The additional information displayed when a movie is selected provides users with a more comprehensive understanding of the movie. The plot, directors, and actors who participated in the movie are all important components that help users to appreciate and understand the movie.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Guess Game
+The app also features a guess game that requires users to guess the name of a movie based on its plot and the names of its actors. Users are ranked based on their performance in the game. The guess game feature is a fun way for users to test their knowledge of movies while improving their skills and knowledge.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Benefits
+This web application is a useful tool for anyone who is interested in movies. The movie search feature makes it easy for users to find information about any movie they are interested in, while the additional information displayed when a movie is selected provides users with a more comprehensive understanding of the movie. The guess game feature is a fun way for users to test their knowledge of movies while improving their skills and knowledge.
 
-### `npm test`
+Usage
+To use this web application, simply enter the name of the movie you are interested in, and the application will display information about the movie. You can also test your knowledge of movies by playing the guess game feature. Users are ranked based on their performance in the game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Conclusion
+Overall, this web application is a useful tool for anyone who is interested in movies. With its comprehensive movie search feature, additional information displayed when a movie is selected, and fun guess game feature, users can learn, explore and enjoy their favorite movies.
