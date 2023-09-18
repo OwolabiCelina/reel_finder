@@ -5,6 +5,7 @@ const MovieDetailsPage = () => {
     return (
         <div>
             <MovieDetails />
+            {/* <MovieDetails /> */}
         </div>
     )
 }

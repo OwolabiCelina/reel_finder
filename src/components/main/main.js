@@ -21,7 +21,6 @@ const Main = () => {
     e.preventDefault();
     setMovieData();
     navigate("/home/movie-details", { state: { movieId: id } });
-
   }
 
 
